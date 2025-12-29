@@ -34,10 +34,11 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
             <button
-              onClick={() => document.getElementById('internship')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => () => window.open('https://docs.google.com/forms/d/e/1FAIpQLScDE3eXpx4O-2SVhigs3wbtwiy5tX3vzvilAB8ySGexpx6B5w/viewform', '_blank')
               className="group w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl font-semibold shadow-lg shadow-cyan-500/25 hover:shadow-xl hover:shadow-cyan-500/40 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
             >
-              <span>Start Your Journey</span>
+              <span>40
+              </span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
             <button
