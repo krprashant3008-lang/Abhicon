@@ -80,13 +80,16 @@ export function Contact() {
                 Send us a message
               </h3>
 
-              <form className="space-y-4">
-                <div>
+              90
+              75
+ method="POST" action="https://formsubmit.co/krprashant3008@gmail.com" className="space-y-4">89
+              92
+              <div>
                   <label className="block text-xs font-bold text-slate-700 mb-2">
                     Full Name
                   </label>
                   <input
-                    type="text"
+                    type="text" name="Full Name"
                     className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-cyan-500 focus:outline-none transition-colors text-sm"
                     placeholder="John Doe"
                   />
@@ -97,7 +100,7 @@ export function Contact() {
                     Email Address
                   </label>
                   <input
-                    type="email"
+                    type="email" name="email"
                     className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-cyan-500 focus:outline-none transition-colors text-sm"
                     placeholder="john@example.com"
                   />
@@ -108,7 +111,7 @@ export function Contact() {
                     Phone Number
                   </label>
                   <input
-                    type="tel"
+                    type="tel" name="phone"
                     className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-cyan-500 focus:outline-none transition-colors text-sm"
                     placeholder="+91 98765 43210"
                   />
@@ -118,7 +121,7 @@ export function Contact() {
                   <label className="block text-xs font-bold text-slate-700 mb-2">
                     Message
                   </label>
-                  <textarea
+                  <textarea name="message"
                     rows={3}
                     className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-cyan-500 focus:outline-none transition-colors resize-none text-sm"
                     placeholder="Tell us about your goals and how we can help..."
@@ -129,7 +132,8 @@ export function Contact() {
                   type="submit"
                   className="w-full px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-lg font-semibold shadow-lg shadow-cyan-500/25 hover:shadow-xl hover:shadow-cyan-500/40 hover:scale-105 transition-all flex items-center justify-center space-x-2 text-sm"
                 >
-                  <span>Send Message</span>
+                  <span>110
+                  </span>
                   <Send className="w-4 h-4" />
                 </button>
               </form>
