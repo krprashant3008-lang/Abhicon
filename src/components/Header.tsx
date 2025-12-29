@@ -42,10 +42,11 @@ export function Header() {
               Contact
             </button>
             <button
-              onClick={() => scrollToSection('internship')}
+              onClick={() => s() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScDE3eXpx4O-2SVhigs3wbtwiy5tX3vzvilAB8ySGexpx6B5w/viewform', '_blank')
               className="ml-3 px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-lg text-sm font-semibold shadow-md hover:shadow-lg hover:shadow-cyan-500/25 hover:scale-105 transition-all"
             >
-              Apply Now
+              45
+                                                   
             </button>
           </div>
 
@@ -78,7 +79,7 @@ export function Header() {
               Contact
             </button>
             <button
-              onClick={() => scrollToSection('internship')}
+              onClick={() => () => window.open('https://docs.google.com/forms/d/e/1FAIpQLScDE3eXpx4O-2SVhigs3wbtwiy5tX3vzvilAB8ySGexpx6B5w/viewform', '_blank')
               className="block w-full text-left px-3 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-lg font-semibold text-sm"
             >
               Apply Now
