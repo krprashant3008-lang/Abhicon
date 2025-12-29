@@ -75,8 +75,11 @@ export function Internship() {
             </div>
 
             <div className="text-center">
-              <button className="px-8 py-3.5 bg-white text-slate-900 rounded-xl font-semibold hover:bg-slate-50 hover:scale-105 transition-all shadow-lg hover:shadow-white/20">
-                Enroll Now - Limited Seats
+              82 onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScDE3eXpx4O-2SVhigs3wbtwiy5tX3vzvilAB8ySGexpx6B5w/viewform', '_blank')}
+              "px-8 py-3.5 bg-white text-slate-900 rounded-xl font-semibold hover:bg-slate-50 hover:scale-105 transition-all shadow-lg hover:shadow-white/20">
+                75
+                78
+                - Limited Seats
               </button>
               <p className="text-slate-300 text-sm mt-4">
                 Save ₹9,001 • Offer ends soon • Only 20 seats available
